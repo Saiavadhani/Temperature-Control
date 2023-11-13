@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    background-color: rgb(148, 220, 163);
+    height: 300px;
+    width: 450px;
+    margin-top: 150px;
+    margin-left: 400px;
+    text-align: center;
+    color: black;
+    padding-top: 8px;
+    border-radius: 8px 8px 8px 8px;
+}
+.container .celsius input{
+     height: 45px;
+     width: 250px;
+     margin-top: 30px;
+     font-size: x-large;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+     border-radius: 3px 3px 3px 3px;
+     text-align: center;
+}
+.container .fahrenheit input{
+    height: 45px;
+    width: 250px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top:1px;
+    font-size: x-large;
+    border-radius: 3px 3px 3px 3px;
+    text-align: center;
+}
+.container .result button{
+    background-color: rgb(40, 73, 32);
+    height: 35px;
+    width: 120px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    font-size: large;
+    color:beige;
+    margin-right: 3px;
+    border-radius: 3px 3px 3px 3px;
+}
